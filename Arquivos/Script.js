@@ -15,21 +15,25 @@ const relogio = setInterval(function time() {
 
     if (s < 10) s = '0' + s;
 
-    // Condição a cada 4 horas o plano de fundo muda de cor
-    if(hr >= 18 && hr <= 21) {
-        document.body.style.backgroundColor = "#fffc8f";
-    } else if (hr >= 21 && hr <= 01 ) {
-        document.body.style.backgroundColor = "#ffc875";
-    } else if (hr >= 01 && hr <= 04) {
-        document.body.style.backgroundColor = "#ff7464";
-    } else if (hr >= 04 && hr <= 08) {
-        document.body.style.backgroundColor = "#ffcb00";
-    } else if (hr >= 08 && hr <= 12) {
-        document.body.style.backgroundColor = "#ff8700";
-    } else if (hr >= 12 && hr <= 16) {
-        document.body.style.backgroundColor = "#05bedf";
-    } else if (hr >= 16 && hr <= 18) {
-        document.body.style.backgroundColor = "#088eff";
+    // O background de fundo mudando de cor de acordo com o avanço do tempo
+    if(min > 01 && min < 15 ) {
+        document.body.style.background-color;rgb(0, 4, 255);
+    } else if (min > 15 && min < 20 ) {
+        document.body.style.background-color;rgb(0, 25, 255);
+    } else if (min > 20 && min < 25) {
+        document.body.style.background-color;rgb(0, 40, 255);
+    } else if (min > 25 && min < 30) {
+        document.body.style.background-color;rgb(0, 59, 255);
+    } else if (min > 30 && min < 35) {
+        document.body.style.background-color;rgb(0, 67, 255);
+    } else if (min > 35 && min < 40) {
+        document.body.style.background-color;rgb(0, 84, 255);
+    } else if (min > 40 && min < 45) {
+        document.body.style.background-color;rgb(0, 89, 255);
+    } else if (min > 45 && min < 50) {
+        document.body.style.background-color;rgb(0, 93, 255);
+    } else if (min > 50 && min < 60) {
+        document.body.style.background-color;rgb(0, 99, 255);
     }
 
     horas.textContent = hr;
