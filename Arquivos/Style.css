@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #838debd8, #1a2fecda);
+    background-color:rgb(111, 0, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,9 +40,9 @@ body {
 
 .relogio span {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .relogio span.tempo {
-    font-size: 15px;
+    font-size: 25px;
 }
